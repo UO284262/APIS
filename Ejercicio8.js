@@ -26,7 +26,7 @@ class WeatherAPI {
     verDatos() {
         $("aside:last").remove();
         $("aside").after("<aside></aside>");
-        $("aside:last").append("<h1>Ciudad: " + this.datos.name + "</h1>");
+        $("aside:last").append("<h1>" + this.datos.name + "</h1>");
         $("aside:last").append("<section><h2>País:</h2> " + this.datos.sys.country + "</section>");
         $("aside:last").append("<section><h2>Latitud:</h2> " + this.datos.coord.lat + "º</section>");
         $("aside:last").append("<section><h2>Longitud:</h2> " + this.datos.coord.lon + "º</section>");
