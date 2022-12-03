@@ -1,0 +1,5 @@
+Key OpenWeather : 834b9699cd9994c139f0949ddcf978bb
+
+Link default para los iconos: https://openweathermap.org/img/w/04.png
+
+POST MAN PARA CONSULTAS A LAS APIS

@@ -1,0 +1,55 @@
+/************************
+  Abel Busto Dopazo - UO284262
+Descripción de estilos
+************************/
+
+/*Selector specificity (0,0,1)*/
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Selector specificity (0,0,1)*/
+header{
+	display: grid;
+  	grid-template-areas:
+		"picture h1"
+		"picture h1";
+}
+
+/*Selector specificity (0,0,2)*/
+header h1{
+	grid-area: h1;
+}
+
+/*Selector specificity (0,0,2)*/
+header picture{
+	grid-area: picture;
+}
+
+/*Selector specificity (0,0,1)*/
+main {
+  display: grid;
+  grid-template-areas: 
+  		"h1 	   	     h1"
+		"section    section"
+		"section2  section2";
+  grid-template-columns: 1fr; 	
+
+}
+
+/*Selector specificity (0,0,2)*/
+main h2{
+	grid-area: h1;
+	justify-self: center;
+}
+
+/*Selector specificity (0,1,2)*/
+main section:first-of-type{
+	grid-area: section;
+}
+
+/*Selector specificity (0,0,2)*/
+main section{
+	grid-area: section2;
+}

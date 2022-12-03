@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name ="author" content ="Abel Busto Dopazo" />
+  <meta name ="description" content ="Descripcion y caracteristicas del Framework Laravel" />
+  <meta name ="keywords" content ="Laravel, Framework"/>
+  <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 14</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="Ejercicio14.js"></script>
+  <link rel="stylesheet" type="text/css" href="Ejercicio14.css"/>
+</head>
+<body>
+  <aside>
+    <h1>Bienvenido al reproductor de música</h1>
+    <p>Debes seleccionar una canción de dentro de tu carpeta Musica</p>
+    <button value="escuchar" onClick="app.loadAudio()">Empezar a escuchar</button>
+    <audio></audio>
+    <p><label for="file"><input id="file" type="file" value="explorer" onChange="app.leerFile()" disabled/></label></p>
+    <button value="PlayPause" onClick="app.playPause()" disabled>Play</button>
+    <p>
+      <label for="volumen">Volumen:<input id="volumen" name="volumen" type="range" min="0" max="2" value="1" step="0.01" disabled/></label> 
+      <label for="stereo">Estereo: L <input id="stereo" name="stereo" type="range" min="-1" max="1" value="0" step="0.01" disabled/> R</label>
+    </p>
+    <p></p>
+  </aside>
+</body>
+</html>

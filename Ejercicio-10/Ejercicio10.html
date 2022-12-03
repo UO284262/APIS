@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name ="author" content ="Abel Busto Dopazo" />
+  <meta name ="description" content ="Descripcion" />
+  <meta name ="keywords" content ="Gasofa95"/>
+  <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+  <title>Ejercicio 10</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="Ejercicio10.js"></script>
+  <link rel="stylesheet" type="text/css" href="Ejercicio10.css"/>
+</head>
+<body>
+  <aside>
+    <h1>Comprueba el precio de la gasolina en tu gasolinera más cercana</h1>
+    <label for="municipio">Municipio: <input id="municipio" type="text" disabled/></label>
+    <button value="Oviedo" onclick = "gasofa.cargarDatos(value)" disabled>Oviedo</button> 
+    <button value="Avilés" onclick = "gasofa.cargarDatos(value)" disabled>Avilés</button> 
+    <button value="Gijón" onclick = "gasofa.cargarDatos(value)" disabled>Gijón</button> 
+    <button value="Pravia" onclick = "gasofa.cargarDatos(value)" disabled>Pravia</button> 
+    <button value="Soto del Barco" onclick = "gasofa.cargarDatos(value)" disabled>Soto del Barco</button> 
+  </aside>
+  <aside></aside>
+</body>
+</html>

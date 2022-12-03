@@ -1,0 +1,61 @@
+/************************
+  Abel Busto Dopazo - UO284262
+Descripción de estilos
+************************/
+
+/*Selector specificity (0,0,1)*/
+body{
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 3em 5% 1em 5%;
+	background-color: white;
+	color: black;
+}
+
+/*Selector specificity (0,0,1)*/
+header{
+	padding: 0em 3em 0em 0em;
+}
+
+/*Selector specificity (0,0,2)*/
+ul{
+	padding: 0;
+	list-style:none;
+}
+
+/*Selector specificity (0,0,3)*/
+ul li{
+	text-decoration: none;
+	display: inline;
+	padding: 2em;
+}
+
+/*Selector specificity (0,0,1)*/
+main{
+	font-size: 1.2em;
+}
+
+/*Selector specificity (0,0,2)*/
+main picture{
+	object-fit:scale-down;
+}
+
+/*Selector specificity (0,0,1)*/
+table{
+	display: inline-block;
+	border-collapse: collapse;
+	caption-side: bottom;
+}
+
+/*Selector specificity (0,0,1)*/
+td, th, tr{
+	border: black 1px solid;
+	padding: 0.2em;
+}
+
+/*Selector specificity (0,0,2)*/
+form textarea{
+	resize: none;
+}
+

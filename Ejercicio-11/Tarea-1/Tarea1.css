@@ -1,0 +1,22 @@
+/************************
+  Abel Busto Dopazo - UO284262
+Descripción de estilos
+************************/
+
+body{
+	background-color: #79A97B;
+	color: #021a04;
+}
+
+aside {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+aside:first-of-type h1{
+	grid-column: 1/ span 3;
+	justify-self: center;
+	border: 2px solid black;
+	border-radius: 0.5em;
+	padding: 1em;
+}

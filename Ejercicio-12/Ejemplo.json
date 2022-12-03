@@ -1,0 +1,70 @@
+[
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2022-06-29T09:24:49.210651296Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "placa-heltec-bto-2",
+          "application_ids": {
+            "application_id": "prueba-bto"
+          },
+          "dev_addr": "260BADE5"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YOWtCyaLHwAFA8KGhAYDUf8AAvZrn/A=",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "9muf8A==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260BADE5",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_cnt": 31,
+            "f_opts": "BQPChoQGA1H/AAI="
+          },
+          "full_f_cnt": 31
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "Ch8KHQoRdHRpZy0yLXN0aS1hdmlsZXMSCFigy//+gDrSEJPLgqoBGgwI4LTwlQYQ8qKu+wIguIybpLCHASoMCOC08JUGEL6DqNEC"
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 7
+          }
+        },
+        "rx1_frequency": "867300000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 12
+          }
+        },
+        "rx2_frequency": "868525000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "EU_863_870_TTN"
+      },
+      "correlation_ids": [
+        "gs:conn:01G6Q802SPFN20HEXDK553AR6Y",
+        "gs:up:host:01G6Q802SVCNHQ3FFGCYPXW4A5",
+        "gs:uplink:01G6QCE2GVWPZ8VMQ2WY8SACDJ",
+        "ns:downlink:01G6QCE2XTQ6XJPJHZ87YV06MF",
+        "ns:transmission:01G6QCE2XTVDGZTVRK7WHJC9PX",
+        "ns:uplink:01G6QCE2GWXJE2887KAGYKZB66",
+        "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01G6QCE2GWV9YN82MF5ZYYKPAS"
+      ]
+    }
+]

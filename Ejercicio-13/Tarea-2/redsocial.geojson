@@ -1,0 +1,369 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.8239599,
+                    43.3768954
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Abel Busto Dopazo. Huca",
+                "name": "(N) Abel Busto Dopazo"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.1165933,
+                    43.4665642
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Abel Busto Dopazo. Pravia",
+                "name": "(R) Abel Busto Dopazo"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.8239599,
+                    43.3768954
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Sonia Fernández Coto. Huca",
+                "name": "(N) Sonia Fernández Coto"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.559519,
+                    43.245748
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Sonia Fernández Coto. Pola Laviana",
+                "name": "(R) Sonia Fernández Coto"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.8239599,
+                    43.3768954
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Alonso Antuña. Huca",
+                "name": "(N) Alonso Antuña"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.635361,
+                    43.285869
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Alonso Antuña. El Entrego",
+                "name": "(R) Alonso Antuña"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.605912,
+                    43.525251
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Alex Rodriguez Valdes. Cabueñes",
+                "name": "(N) Alex Rodriguez Valdes"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.8534649,
+                    43.3562494
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Alex Rodriguez Valdes. Oviedo",
+                "name": "(R) Alex Rodriguez Valdes"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    26.282034,
+                    47.676481
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Iana Elena Cotlet. Ispitalul Bethesda",
+                "name": "(N) Iana Elena Cotlet"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.864866,
+                    43.363083
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Iana Elena Cotlet. Oviedo",
+                "name": "(R) Iana Elena Cotlet"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.8239599,
+                    43.3768954
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Fernando Alonso Diaz. Huca",
+                "name": "(N) Fernando Alonso Diaz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    8.99918,
+                    46.0379558
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Fernando Alonso Diaz. Lugano",
+                "name": "(R) Fernando Alonso Diaz"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.9247914,
+                    37.2809387
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Karen Martin Blanco. Hospital Juan Ramon Jimenez",
+                "name": "(N) Karen Martin Blanco"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.9749856,
+                    37.1907742
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Karen Martin Blanco. Huelva",
+                "name": "(R) Karen Martin Blanco"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.9247914,
+                    37.2809387
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Carolina Vallejo Moraira. Hospital Juan Ramon Jimenez",
+                "name": "(N) Carolina Vallejo Moraira"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.0099765,
+                    37.3538609
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Carolina Vallejo Moraira. Sevilla",
+                "name": "(R) Carolina Vallejo Moraira"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.8239599,
+                    43.3768954
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Diego García García. Huca",
+                "name": "(N) Diego García García"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.7086782,
+                    43.3820837
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Diego García García. El Berrón",
+                "name": "(R) Diego García García"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.8239599,
+                    43.3768954
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Alejandro Lougedo Patricio. Huca",
+                "name": "(N) Alejandro Lougedo Patricio"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    12.5199261,
+                    41.9071921
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Alejandro Lougedo Patricio. Roma",
+                "name": "(R) Alejandro Lougedo Patricio"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.605912,
+                    43.525251
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Candela Suarez Prado. Cabueñes",
+                "name": "(N) Candela Suarez Prado"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.5412463,
+                    43.5457511
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Candela Suarez Prado. Luarca",
+                "name": "(R) Candela Suarez Prado"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.605912,
+                    43.525251
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Roberto Menendez Casal. Cabueñes",
+                "name": "(N) Roberto Menendez Casal"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -6.5412463,
+                    43.5457511
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Roberto Menendez Casal. Luarca",
+                "name": "(R) Roberto Menendez Casal"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.605912,
+                    43.525251
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Nacimiento de Manuel Palacios Sánchez. Cabueñes",
+                "name": "(N) Manuel Palacios Sánchez"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -5.8534649,
+                    43.3562494
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "description": "Lugar de Residencia de Manuel Palacios Sánchez. Oviedo",
+                "name": "(R) Manuel Palacios Sánchez"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
