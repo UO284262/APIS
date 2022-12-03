@@ -35,18 +35,18 @@
                     case "z": res[0][2] += Number($(celda).text()); break;
                 }
                 switch(headers[1]) {
-                    case "X": res[1][0] += Number($(celda).text()); break;
-                    case "Y": res[1][1] += Number($(celda).text()); break;
-                    case "Z": res[1][2] += Number($(celda).text()); break;
+                    case "XX": res[1][0] += Number($(celda).text()); break;
+                    case "YY": res[1][1] += Number($(celda).text()); break;
+                    case "ZZ": res[1][2] += Number($(celda).text()); break;
                 }
             });
         $("table tr td[headers='resR resC']").text(resT);
         $("table tr td[headers='x resC']").text(res[0][0]);
         $("table tr td[headers='y resC']").text(res[0][1]);
         $("table tr td[headers='z resC']").text(res[0][2]);
-        $("table tr td[headers='resR X']").text(res[1][0]);
-        $("table tr td[headers='resR Y']").text(res[1][1]);
-        $("table tr td[headers='resR Z']").text(res[1][2]);
+        $("table tr td[headers='resR XX']").text(res[1][0]);
+        $("table tr td[headers='resR YY']").text(res[1][1]);
+        $("table tr td[headers='resR ZZ']").text(res[1][2]);
     }
 
     recorrerDOM() {

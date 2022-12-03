@@ -3,17 +3,20 @@
 Descripción de estilos
 ************************/
 
+/*Selector specificity (0,0,1)*/
 body{
 	background-color: #79A97B;
 	color: #021a04;
 }
 
+/*Selector specificity (0,1,1)*/
 aside:first-of-type{
 	display: grid;
 	grid-template-columns: repeat(5,1fr);
 	grid-template-rows: repeat(2,1fr);
 }
 
+/*Selector specificity (0,0,2)*/
 aside button{
 	padding: 0.5em 2em 0.5em 2em;
 	margin: 0em 2em 0em 2em;
@@ -21,35 +24,32 @@ aside button{
 	color: #79A97B;
 }
 
+/*Selector specificity (0,1,2)*/
 aside:first-of-type h1{
 	grid-column: 1/ span 5;
-	grid-row: span 2;
 	justify-self: center;
 	border: 2px solid black;
 	border-radius: 0.5em;
 	padding: 1em;
 }
 
+/*Selector specificity (0,1,1)*/
 aside:last-of-type{
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 }
 
-aside:last-of-type h1{
-	grid-row: 1;
-	grid-column: 1/ span 3;
-	justify-self: center;
-}
-
+/*Selector specificity (0,0,1)*/
 picture{
 	padding: 1em 2em 1em 2em;
 }
 
+/*Selector specificity (0,1,2)*/
 aside:last-of-type section {
 	grid-column: span 1;
-	grid-row: span 2;
 }
 
+/*Selector specificity (0,1,2)*/
 aside:last-of-type h1{
 	grid-column: 1/ span 3;
 	justify-self: center;

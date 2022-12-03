@@ -9,7 +9,7 @@ class WeatherXML {
 
     cargarDatos(c) {
         this.ciudad = c;
-        this.url = "http://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + this.tipo + this.unidades + this.idioma + "&APPID=" + this.apikey;
+        this.url = "https://api.openweathermap.org/data/2.5/weather?q=" + this.ciudad + this.tipo + this.unidades + this.idioma + "&APPID=" + this.apikey;
         $.ajax({
             dataType: "xml",
             url: this.url,
