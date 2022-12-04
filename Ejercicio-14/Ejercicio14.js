@@ -4,11 +4,14 @@ class AppAPIs {
       this.track;
       this.gainNode;
       this.panner;
+      this.ready = false;
       document.addEventListener("visibilitychange", () => {
-        if (document.hidden) {
-          this.cambiarVolumen(this.gainNode.gain.value/3);
-        } else {
-          this.cambiarVolumen(this.gainNode.gain.value*3);
+        if(this.ready) {
+          if (document.hidden) {
+            this.cambiarVolumen(this.gainNode.gain.value/3);
+          } else {
+            this.cambiarVolumen(this.gainNode.gain.value*3);
+          }
         }
       })
     }
@@ -39,6 +42,7 @@ class AppAPIs {
         this.track.connect(this.gainNode).connect(this.panner).connect(this.audioContext.destination);
         $("button[value='escuchar']:first").attr("disabled",true);
         $("input[type='file']").attr("disabled",false);
+        this.ready = true;
     }
 
     #activarBotones() {
