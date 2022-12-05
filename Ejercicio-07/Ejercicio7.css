@@ -19,6 +19,11 @@ header{
 }
 
 /*Selector specificity (0,0,2)*/
+aside button{
+	margin:2em;
+}
+
+/*Selector specificity (0,0,2)*/
 ul{
 	padding: 0;
 	list-style:none;

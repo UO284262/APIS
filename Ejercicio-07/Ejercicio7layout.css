@@ -38,6 +38,11 @@ main {
 
 }
 
+aside{
+	display: flex;
+	flex-direction: row;
+}
+
 /*Selector specificity (0,0,2)*/
 main h2{
 	grid-area: h1;
